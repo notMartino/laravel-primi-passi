@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: crimson;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  padding: 30px 10%;
+  color: white;
+  font-family: "Lobster", cursive;
+  text-shadow: 0 0 3px dodgerblue, 0 0 3px greenyellow, 0 0 3px dodgerblue;
+}
+
+header ul.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header ul.nav li {
+  flex-basis: 200px;
+}
+
+header ul.nav li h2 {
+  font-size: 25px;
+}
+
+header ul.nav li h2.shadow2 {
+  text-shadow: 0 0 3px red, 0 0 3px yellow, 0 0 3px yellow;
+}
+
